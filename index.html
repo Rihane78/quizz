@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>QUIZZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Question pour une champion !</h1>
+        <div>
+            <span class= "container">Quel est la capital de la France ?</span>
+            <p>
+                <input type="radio" id="capital1" name="capital" value="paris">
+                <label> Paris </label>
+                <input type="radio" id="capital2" name="capital" value="londres">
+                <label> Londres </label>
+                <input type="radio" id="capital3" name="capital" value="madrid">
+                <label> Madrid </label>
+            </p>
+            <div id="capitalAnswer">
+            </div>
+        </div>
+        <div>
+            <span class="container">Qui sont les formateurs de cette session automatisation ?</span>
+            <p>
+                <input type="checkbox" id="formateur1" name="formateur" value="Rihane">
+                <label> Rihane</label>
+                <input type="checkbox" id="formateur2" name="formateur" value="Ali">
+                <label> Ali</label>
+                <input type="checkbox" id="formateur3" name="formateur" value="Mimoun">
+                <label> Mimoun </label>
+            </p>
+            <div id="formateurAnswer">
+            </div>
+        </div>
+            <div id="totalAnswer">
+            </div>
+         <div>
+            <br></br>
+            <button onclick ="checkCheckbox()"> Confirmer les réponses</button>
+         </div>
+
+            <script type="text/javascript" src="script.js"></script>
+    </body>
+
